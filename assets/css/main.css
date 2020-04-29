@@ -30,9 +30,10 @@ ol, ul {
 }
 
 .why-now {
-    max-width: 500px;
     margin: 0 auto;
+    font-size: 13px;
 }
+
 
 .discussion {
     height: 500px;
@@ -59,9 +60,8 @@ ol, ul {
 }
 
 .join-us .right {
-    float: right;
-    width: 40%;
-    /*height: 340px;*/
+    height: 340px;
+    min-width: 400px;
 }
 
 .checklist {

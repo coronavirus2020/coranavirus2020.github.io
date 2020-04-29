@@ -1,0 +1,339 @@
+ol, ul {
+    list-style: none;
+}
+
+.header .headerBar .logo a {
+    display: block;
+    padding: 8px 0;
+    width: 152px;
+}
+
+.header .headerBar {
+    background: #fff;
+    height: 64px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 50px;
+}
+
+.celebrate {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.why-now {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.discussion {
+    height: 500px;
+}
+
+.why-now.h1 {
+    text-align: left;
+}
+
+.join-us {
+    margin: 20px;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 20px 50px;
+    height: 340px;
+}
+
+.join-us .left {
+    width: 40%;
+    height: 340px;
+    display: inline;
+    line-height: 10;
+}
+
+.join-us .right {
+    float: right;
+    width: 40%;
+    /*height: 340px;*/
+}
+
+.checklist {
+    padding: 10px 0px;
+    height: 40px;
+}
+
+.join-us .right .checklist span:before {
+    background: url(../images/checkmark.png) 10% bottom no-repeat;
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+}
+
+.join-us .left>span {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.header .headerBar .container>div {
+    position: relative;
+}
+
+
+.homePage .heroImage .heroBg {
+    height: 600px;
+}
+.heroImage .heroBg {
+    background-size: cover;
+    background-position: 50%;
+}
+
+/*
+@media not all, not all, only screen and (-webkit-min-device-pixel-ratio: 1.5), not all
+.homePage .heroImage .heroBg:before {
+    background-image: url(/guest-assets/_/_/_/src/images/hero/home/homeHero-2x.png?0aa9da2…v0);
+    background-size: contain;
+}*/
+
+.homePage .heroImage .heroBg:before {
+    background: url(../images/heroImage.png) 100% bottom no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 500px;
+    width: 100%;
+}
+
+.homePage .heroImage .heroBg2 {
+    height: 500px;
+}
+
+.homePage .heroImage .heroBg2:before {
+    background: url(../images/townhall.png) 100% bottom no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.homePage .heroImage .heroBg3 {
+    height: 500px;
+}
+
+.homePage .heroImage .heroBg3:before {
+    background: url(../images/heroImage3.png) 100% bottom no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 400px;
+    width: 100%;
+}
+
+.homePage .heroImage .heroBg4 {
+    height: 400px;
+}
+
+.homePage .heroImage .heroBg4:before {
+    background: url(../images/heroImage4.png) 100% bottom no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+
+.homePage .heroImage .heroBg5 {
+    height: 400px;
+}
+
+.homePage .heroImage .heroBg5:before {
+    background: url(../images/heroImage5.png) 100% bottom no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 400px;
+    width: 100%;
+}
+
+.homePage .heroImage .heroBg6 {
+    height: 400px;
+}
+
+.homePage .heroImage .heroBg6:before {
+    background: url(../images/heroImage6.png) 100% bottom no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 400px;
+    width: 100%;
+}
+
+.heroImag.townhall {
+    height: 500px;
+}
+
+/*a, audio, body, div, em, form, h1, h2, h3, h4, h5, h6, html, iframe, img, label, li, object, ol, p, span, table, tbody, td, tfoot, th, thead, tr, ul, video {
+    border: 0;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+}
+*/
+
+/*.homePage .heroImage {
+    background: linear-gradient(73deg,#5d7786,#536c82 26%,#456982 52%,#1d354a 73%,#1a2a38);
+    height: 442px;
+}*/
+.heroImage {
+    position: relative;
+}
+
+.pageLayout #content {
+    padding-top: 64px;
+    min-height: calc(100vh - 421px);
+}
+
+@media not all, not all, only screen and (-webkit-min-device-pixel-ratio: 1.5), not all
+.homePage .valueProps .peaceOfMind .image {
+    background-image: url(../images/festihealth.png);
+    background-size: contain;
+}
+
+.image {
+    background-image: url(../images/festihealth.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+}
+
+.container > .image {
+    /*background: transparent 0 0 no-repeat;*/
+    height: 140px;
+    width: 400px;
+    display: inline-block;
+}
+
+.container > p {
+    font-size: 19px;
+}
+
+.homePage .heroImage .overlayContent p {
+    margin-bottom: 24px;
+}
+
+
+
+
+
+.homePage .heroImage .overlayContent .btn {
+    display: block;
+    width: 244px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+        width: 100px;
+    display: inline-block;
+}
+
+.btn.btnWhite {
+    background: #fff;
+    color: #343a40;
+}
+
+
+.btn {
+    border-radius: 22px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: gilroy,noto,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 24px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.btn.btnBlue {
+    background: #0f0;
+    color: #fff;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-text-decoration-skip: objects;
+}
+/*
+.container .cat span a {
+    width: 100px;
+    display: inline-block;
+}
+
+*/
+
+/*a, audio, body, div, em, form, h1, h2, h3, h4, h5, h6, html, iframe, img, label, li, object, ol, p, span, table, tbody, td, tfoot, th, thead, tr, ul, video {
+    border: 0;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+}*/
+
+.header .headerBar .links {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.header .headerBar .logo a div {
+    background: url(../images/logo.png) 0 0 no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 152px;
+}
+
+.header .headerBar .links nav>ul>li {
+    display: inline-block;
+    padding: 0 5px;
+    vertical-align: middle;
+}
+
+.header .headerBar .links nav>ul>li>a {
+    color: green;
+    display: block;
+    height: 64px;
+    line-height: 64px;
+}
+
+.header .headerBar .links nav>ul>li>a {
+    /*display: block;*/
+    height: 64px;
+    line-height: 64px;
+}
+
+.header a {
+    color: #000;
+}
+
+/*a {
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-text-decoration-skip: objects;
+}
+
+* {
+    box-sizing: border-box;
+}*/

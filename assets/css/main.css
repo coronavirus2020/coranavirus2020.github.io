@@ -44,7 +44,9 @@ ol, ul {
 #about {
     width: 100%;
     background-image: url('../assets/Why now-bg@svg.svg');
-    background-size: contain;
+    background-size: 130%;
+    background-position-x: -200px;
+    background-position-y: -100px;
     background-repeat: no-repeat;
     max-width: none;
 }
@@ -196,19 +198,17 @@ ol, ul {
 .homePage .heroImage .heroBg3 {
     height: auto;
     width: 100%;
-    margin: 40px auto;
-    max-width: 800px;
+    margin: 40px auto 0px auto;
 }
 
 .anchor {
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .homePage .heroImage .heroBg4 {
     height: auto;
     width: 100%;
     margin: 0 auto;
-    max-width: 800px;
 }
 
 .homePage .signmeup h3 {
@@ -226,11 +226,11 @@ ol, ul {
 
 .homePage .signmeup {
     width: 100%;
-    max-width: 800px;
     margin: 0 auto;
     background: url(../assets/sponsors-graphic@svg.svg);
     background-size: 140%;
-    background-position: center;
+    background-position-x: -120px;
+    background-position-y: -120px;
     background-repeat: no-repeat;
     display: block;
 }
@@ -239,7 +239,6 @@ ol, ul {
     height: auto;
     width: 100%;
     margin: 40px auto;
-    max-width: 800px;
 }
 
 .heroImag.townhall {
@@ -260,7 +259,7 @@ ol, ul {
 }*/
 .heroImage {
     position: relative;
-    margin: 10px auto;
+    margin: auto;
 }
 
 .pageLayout #content {

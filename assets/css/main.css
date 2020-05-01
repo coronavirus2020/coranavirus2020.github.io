@@ -203,7 +203,7 @@ ol, ul {
 .homePage .heroImage .heroBg3 {
     height: auto;
     width: 100%;
-    margin: 40px auto 0px auto;
+    margin: 0px auto 0px auto;
 }
 
 .homePage .heroImage .heroBg4 {
@@ -258,7 +258,7 @@ ol, ul {
 }*/
 .heroImage {
     position: relative;
-    margin: 0px auto;
+    margin: 48px auto 0px auto;
 }
 
 .pageLayout #content {
@@ -347,7 +347,8 @@ a {
 
 .header .headerBar .logo a div {
     background: url(../images/logo.png) 0 0 no-repeat;
-    background-size: cover;
+    background-size: 70%;
+    background-position: center;
     height: 48px;
     width: 152px;
 }

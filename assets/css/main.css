@@ -23,7 +23,7 @@ ol, ul {
 }
 
 .hero1 {
-    background-image: url('../assets/hero-background@svg.svg');
+    background-image: url('../images/hero-background@svg.svg');
     background-size: contain;
     background-position-x: 40px;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ ol, ul {
 
 #about {
     width: 100%;
-    background-image: url('../assets/Why now-bg@svg.svg');
+    background-image: url('../images/Why now-bg@svg.svg');
     background-size: 130%;
     background-position-x: -200px;
     background-position-y: -100px;
@@ -204,7 +204,7 @@ ol, ul {
 }*/
 
 .homePage .heroImage .heroBg:before {
-    background: url(../assets/Hero-Image@2x.png) 100% bottom no-repeat;
+    background: url(../images/Hero-Image@2x.png) 100% bottom no-repeat;
     background-size: contain;
     background-position: center;
     content: "";
@@ -220,7 +220,7 @@ ol, ul {
 }
 
 .homePage .heroImage .heroBg2:before {
-    background: url(../assets/map@2x.png) 100% bottom no-repeat;
+    background: url(../images/map@2x.png) 100% bottom no-repeat;
     background-size: contain;
     background-position: center;
     content: "";
@@ -258,7 +258,7 @@ ol, ul {
 .homePage .signmeup {
     width: 100%;
     margin: 0 auto;
-    background: url(../assets/sponsors-graphic@svg.svg);
+    background: url(../images/sponsors-graphic@svg.svg);
     background-size: 140%;
     background-position-x: -120px;
     background-position-y: -120px;

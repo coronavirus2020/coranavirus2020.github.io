@@ -31,8 +31,9 @@ ol, ul {
 
 .why-now {
     margin: 0 auto;
-    font-size: 11pt;
+    font-size: 14pt;
     max-width: 450px;
+    text-align: left;
 }
 
 
@@ -93,10 +94,11 @@ ol, ul {
 .listContainer .checklist .checktext {
     margin-left: 4px;
     vertical-align: middle;
+    font-size: 14pt
 }
 
 .join-us .left>span {
-    font-size: 30px;
+    font-size: 24pt;
     font-weight: 500;
 }
 
@@ -125,6 +127,7 @@ ol, ul {
 .homePage .heroImage .heroBg:before {
     background: url(../images/heroImage.png) 100% bottom no-repeat;
     background-size: contain;
+    background-position: center;
     content: "";
     display: block;
     height: 500px;
@@ -140,6 +143,7 @@ ol, ul {
 .homePage .heroImage .heroBg2:before {
     background: url(../images/townhall.png) 100% bottom no-repeat;
     background-size: contain;
+    background-position: center;
     content: "";
     display: block;
     height: 500px;
@@ -157,6 +161,7 @@ ol, ul {
 .homePage .heroImage .heroBg3:before {
     background: url(../images/heroImage3.png) 100% bottom no-repeat;
     background-size: contain;
+    background-position: center;
     content: "";
     display: block;
     height: 400px;
@@ -172,6 +177,7 @@ ol, ul {
 .homePage .heroImage .heroBg4:before {
     background: url(../images/heroImage4.png) 100% bottom no-repeat;
     background-size: contain;
+    background-position: center;
     content: "";
     display: block;
     height: 400px;
@@ -184,10 +190,9 @@ ol, ul {
     margin: 0 auto;
     background: url(../images/heroImage5_bg.png) 100% bottom no-repeat;
     background-size: contain;
+    background-position: center;
     content: "";
     display: block;
-    height: 400px;
-    width: 100%;
 }
 
 .homePage .heroImage .heroBg6 {
@@ -199,6 +204,7 @@ ol, ul {
 .homePage .heroImage .heroBg6:before {
     background: url(../images/heroImage6.png) 100% bottom no-repeat;
     background-size: contain;
+    background-position: center;
     content: "";
     display: block;
     height: 400px;
@@ -241,6 +247,7 @@ ol, ul {
     background-image: url(../images/festihealth.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     /*background-size: cover;*/
 }
 
@@ -252,7 +259,7 @@ ol, ul {
 }
 
 .container > p {
-    font-size: 19px;
+    font-size: 14pt;
 }
 
 .homePage .heroImage .overlayContent p {
@@ -284,7 +291,7 @@ ol, ul {
     cursor: pointer;
     display: inline-block;
     font-family: gilroy,noto,sans-serif;
-    font-size: 14px;
+    font-size: 12pt;
     font-weight: 600;
     height: 44px;
     line-height: 44px;

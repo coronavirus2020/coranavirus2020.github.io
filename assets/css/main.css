@@ -18,6 +18,17 @@ ol, ul {
     z-index: 2;
 }
 
+#logo {
+    margin: 40px auto
+}
+
+.hero1 {
+    background-image: url('../assets/hero-background@svg.svg');
+    background-size: contain;
+    background-position-x: 40px;
+    background-repeat: no-repeat;
+}
+
 .container {
     margin: 0 auto;
     max-width: 600px;
@@ -30,11 +41,29 @@ ol, ul {
     margin: 0 auto;
 }
 
+#about {
+    width: 100%;
+    background-image: url('../assets/Why now-bg@svg.svg');
+    background-size: 130%;
+    background-position-x: -200px;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    max-width: none;
+}
+
 .why-now {
-    margin: 0 auto;
-    font-size: 14pt;
-    max-width: 450px;
     text-align: left;
+}
+
+.why-now h1 {
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+.why-now p {
+    margin: 20px auto;
+    max-width: 450px;
+    line-height: 1.5;
 }
 
 .footer {
@@ -90,7 +119,7 @@ ol, ul {
 
 .listContainer {
     margin: auto;
-    width: 40%;
+    width: 50%;
     text-align: left;
     border-spacing: 4px 20px
 }
@@ -109,7 +138,7 @@ ol, ul {
 .listContainer .checklist .checktext {
     margin-left: 4px;
     vertical-align: middle;
-    font-size: 14pt
+    line-height: 1.5;
 }
 
 .join-us .left>span {
@@ -140,7 +169,7 @@ ol, ul {
 }*/
 
 .homePage .heroImage .heroBg:before {
-    background: url(../images/heroImage.png) 100% bottom no-repeat;
+    background: url(../assets/Hero-Image@2x.png) 100% bottom no-repeat;
     background-size: contain;
     background-position: center;
     content: "";
@@ -152,11 +181,11 @@ ol, ul {
 .homePage .heroImage .heroBg2 {
     height: 500px;
     width: 80%;
-    margin: auto;
+    margin: 40px auto;
 }
 
 .homePage .heroImage .heroBg2:before {
-    background: url(../images/townhall.png) 100% bottom no-repeat;
+    background: url(../assets/map@2x.png) 100% bottom no-repeat;
     background-size: contain;
     background-position: center;
     content: "";
@@ -169,37 +198,40 @@ ol, ul {
 .homePage .heroImage .heroBg3 {
     height: auto;
     width: 100%;
-    margin: 0 auto;
-    max-width: 800px;
+    margin: 40px auto 0px auto;
 }
 
 .anchor {
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .homePage .heroImage .heroBg4 {
     height: auto;
     width: 100%;
     margin: 0 auto;
-    max-width: 800px;
 }
 
-.homePage .signmeup h4 {
-    width: 40%;
+.homePage .signmeup h3 {
+    width: 50%;
+    text-align: left;
+    margin: auto
+}
+
+.homePage .signmeup p {
+    width: 50%;
     margin: 40px auto auto auto;
     text-align: left;
+    line-height: 1.5;
 }
 
 .homePage .signmeup {
-    height: 600px;
     width: 100%;
-    max-width: 800px;
     margin: 0 auto;
-    background: url(../images/heroImage5_bg.png);
-    background-size: 100% 600px;
-    background-position: center;
+    background: url(../assets/sponsors-graphic@svg.svg);
+    background-size: 140%;
+    background-position-x: -120px;
+    background-position-y: -120px;
     background-repeat: no-repeat;
-    content: "";
     display: block;
 }
 
@@ -207,7 +239,6 @@ ol, ul {
     height: auto;
     width: 100%;
     margin: 40px auto;
-    max-width: 800px;
 }
 
 .heroImag.townhall {
@@ -228,7 +259,7 @@ ol, ul {
 }*/
 .heroImage {
     position: relative;
-    margin: 10px auto;
+    margin: auto;
 }
 
 .pageLayout #content {
@@ -257,26 +288,13 @@ ol, ul {
     display: inline-block;
 }
 
-.container > p {
-    font-size: 14pt;
-}
-
-.homePage .heroImage .overlayContent p {
-    margin-bottom: 24px;
-}
-
 .homePage .heroImage .overlayContent .btn {
     display: block;
-    width: 244px;
-    margin-bottom: 16px;
-    padding: 0 8px;
-    width: 100px;
-    display: inline-block;
 }
 
 .btn.btnWhite {
     background: #fff;
-    color: #27D158;
+    color: #000;
 }
 
 
@@ -359,7 +377,8 @@ a {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: noto, sans-serif;
+    font-size: 12pt;
 }
 
 /*a {

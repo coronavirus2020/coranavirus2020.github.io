@@ -501,4 +501,7 @@ body {
   .container {
     padding: 10px;
   }
+
+  .homePage .heroImage .heroBg:before {
+    background: url(../images/Hero-Image.png) 100% bottom no-repeat;
 }

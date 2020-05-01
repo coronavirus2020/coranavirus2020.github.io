@@ -288,10 +288,6 @@ ol, ul {
     display: inline-block;
 }
 
-.homePage .heroImage .overlayContent .btn {
-    display: block;
-}
-
 .btn.btnWhite {
     background: #fff;
     color: #000;
@@ -305,13 +301,12 @@ ol, ul {
     display: inline-block;
     font-family: gilroy,noto,sans-serif;
     font-size: 12pt;
-    font-weight: 600;
+    font-weight: 400;
     height: 44px;
     line-height: 44px;
     padding: 0 24px;
     text-align: center;
     vertical-align: top;
-    margin: 16px
 }
 
 .btn.btnBlue {
@@ -359,17 +354,16 @@ a {
     vertical-align: middle;
 }
 
-.header .headerBar .links nav>ul>li>a {
-    color: green;
-    display: block;
-    height: 64px;
-    line-height: 64px;
+.subtitle {
+    font-weight: 540;
 }
 
 .header .headerBar .links nav>ul>li>a {
-    /*display: block;*/
+    color: #2ca04e;
+    display: block;
     height: 64px;
     line-height: 64px;
+    font-weight: 350;
 }
 
 .header a {

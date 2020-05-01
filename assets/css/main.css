@@ -24,6 +24,10 @@ ol, ul {
     padding: 0 50px;
 }
 
+.anchor {
+    padding-top: 60px;
+}
+
 .celebrate {
     max-width: 500px;
     margin: 0 auto;
@@ -36,6 +40,19 @@ ol, ul {
     text-align: left;
 }
 
+.footer {
+    height: 100px;
+}
+
+.headline {
+    font-size: 1.6666666269302368rem;
+    font-family: Zapfino;
+    font-weight: 700;
+    font-variant-ligatures: normal;
+    font-variant-east-asian: normal;
+    vertical-align: baseline;
+    white-space: pre-wrap;
+}
 
 .discussion {
     height: 500px;

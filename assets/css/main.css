@@ -437,10 +437,11 @@ body {
 
 .header .hamburgerMenu ul>li>a {
   color: #2ca04e;
+  font-size: 15pt;
 }
 
 .header .hamburgerMenu ul>li {
-  margin: 10px auto;
+  margin: 15px auto;
 }
 
 .header .hamburgerMenu ul {

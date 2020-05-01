@@ -171,8 +171,9 @@ ol, ul {
 
 .homePage .heroImage .heroBg3 {
     height: 500px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    max-width: 800px;
 }
 
 .homePage .heroImage .heroBg3:before {
@@ -187,8 +188,9 @@ ol, ul {
 
 .homePage .heroImage .heroBg4 {
     height: 500px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    max-width: 800px;
 }
 
 .homePage .heroImage .heroBg4:before {
@@ -201,21 +203,29 @@ ol, ul {
     width: 100%;
 }
 
+.homePage .signmeup h4 {
+    width: 40%;
+    margin: 40px auto auto auto;
+}
+
 .homePage .signmeup {
-    height: 400px;
-    width: 80%;
+    height: 600px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
-    background: url(../images/heroImage5_bg.png) 100% bottom no-repeat;
-    background-size: contain;
+    background: url(../images/heroImage5_bg.png);
+    background-size: 100% 600px;
     background-position: center;
+    background-repeat: no-repeat;
     content: "";
     display: block;
 }
 
 .homePage .heroImage .heroBg6 {
     height: 400px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    max-width: 800px;
 }
 
 .homePage .heroImage .heroBg6:before {
@@ -283,22 +293,18 @@ ol, ul {
     margin-bottom: 24px;
 }
 
-
-
-
-
 .homePage .heroImage .overlayContent .btn {
     display: block;
     width: 244px;
     margin-bottom: 16px;
     padding: 0 8px;
-        width: 100px;
+    width: 100px;
     display: inline-block;
 }
 
 .btn.btnWhite {
     background: #fff;
-    color: #343a40;
+    color: #27D158;
 }
 
 
@@ -318,7 +324,7 @@ ol, ul {
 }
 
 .btn.btnBlue {
-    background: #0f0;
+    background: #27D158;
     color: #fff;
 }
 

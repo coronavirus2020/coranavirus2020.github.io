@@ -50,7 +50,6 @@ ol, ul {
 }
 
 .why-now {
-    font-size: 14pt;
     text-align: left;
 }
 
@@ -62,6 +61,7 @@ ol, ul {
 .why-now p {
     margin: 20px auto;
     max-width: 450px;
+    line-height: 1.5;
 }
 
 .footer {
@@ -136,7 +136,7 @@ ol, ul {
 .listContainer .checklist .checktext {
     margin-left: 4px;
     vertical-align: middle;
-    font-size: 14pt
+    line-height: 1.5;
 }
 
 .join-us .left>span {
@@ -211,10 +211,17 @@ ol, ul {
     max-width: 800px;
 }
 
-.homePage .signmeup h4 {
+.homePage .signmeup h3 {
+    width: 50%;
+    text-align: left;
+    margin: auto
+}
+
+.homePage .signmeup p {
     width: 50%;
     margin: 40px auto auto auto;
     text-align: left;
+    line-height: 1.5;
 }
 
 .homePage .signmeup {
@@ -282,13 +289,8 @@ ol, ul {
     display: inline-block;
 }
 
-.container > p {
-    font-size: 14pt;
-}
-
 .homePage .heroImage .overlayContent .btn {
     display: block;
-    font-size: 14pt
 }
 
 .btn.btnWhite {
@@ -377,6 +379,7 @@ a {
 
 body {
     font-family: noto, sans-serif;
+    font-size: 12pt;
 }
 
 /*a {

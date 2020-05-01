@@ -64,6 +64,7 @@ ol, ul {
     margin: 20px auto;
     max-width: 500px;
     line-height: 1.5;
+    font-size: 9pt;
 }
 
 .footer {
@@ -84,6 +85,10 @@ ol, ul {
     text-align: left;
 }
 
+.anchor {
+    padding-top: 100px;
+}
+
 .signmeup .anchor {
     font-size: 30px;
     font-weight: 500;
@@ -102,7 +107,7 @@ ol, ul {
     height: 340px;
     display: block;
     float: left;
-    margin-top: 240px
+    line-height: 340px
 }
 
 .join-us .listContainer {
@@ -117,7 +122,7 @@ ol, ul {
 
 .listContainer {
     margin: auto;
-    max-width: 500px;
+    max-width: 340px;
     text-align: left;
     border-spacing: 4px 20px
 }
@@ -134,6 +139,7 @@ ol, ul {
 }
 
 .listContainer .checklist .checktext {
+    font-size: 8pt;
     margin-left: 4px;
     vertical-align: middle;
     line-height: 1.5;
@@ -150,7 +156,7 @@ ol, ul {
 
 
 .homePage .heroImage .heroBg {
-    height: 600px;
+    height: 550px;
     width: 80%;
     margin: auto;
 }
@@ -196,17 +202,13 @@ ol, ul {
 .homePage .heroImage .heroBg3 {
     height: auto;
     width: 100%;
-    margin: 40px auto 0px auto;
-}
-
-.anchor {
-    padding-top: 40px;
+    margin: 40px auto 40px auto;
 }
 
 .homePage .heroImage .heroBg4 {
     height: auto;
     width: 100%;
-    margin: 0 auto;
+    margin: 20pt auto 0 auto;
 }
 
 .homePage .signmeup h3 {
@@ -289,8 +291,13 @@ ol, ul {
 .btn.btnWhite {
     background: #fff;
     color: #000;
+    color: black;
 }
 
+.blackTitle {
+    color: black;
+    font-weight: 550;
+}
 
 .btn {
     border-radius: 22px;
@@ -300,8 +307,8 @@ ol, ul {
     font-family: gilroy,noto,sans-serif;
     font-size: 12pt;
     font-weight: 400;
-    height: 44px;
-    line-height: 44px;
+    height: 40px;
+    line-height: 40px;
     padding: 0 24px;
     text-align: center;
     vertical-align: top;
@@ -352,15 +359,17 @@ a {
     vertical-align: middle;
 }
 
+.greenDot {
+    color: #27D158;
+}
 .subtitle {
-    font-weight: 540;
+    font-size: 20pt;
+    font-weight: 450;
 }
 
 .header .headerBar .links nav>ul>li>a {
     color: #2ca04e;
     display: block;
-    height: 64px;
-    line-height: 64px;
     font-weight: 350;
 }
 

@@ -57,12 +57,12 @@ ol, ul {
 
 .why-now h1 {
     margin: 0 auto;
-    max-width: 450px;
+    max-width: 500px;
 }
 
 .why-now p {
     margin: 20px auto;
-    max-width: 450px;
+    max-width: 500px;
     line-height: 1.5;
 }
 
@@ -92,24 +92,22 @@ ol, ul {
 }
 
 .join-us {
-    margin: 20px;
     width: 80%;
     margin: 0 auto;
-    max-width: 1024px;
-    padding: 20px 50px;
+    overflow: hidden;
 }
 
 .join-us .left {
-    width: 40%;
+    max-width: 400px;
     height: 340px;
-    display: inline;
+    display: block;
     float: left;
     margin-top: 240px
 }
 
 .join-us .listContainer {
     height: auto;
-    width: 50%;
+    max-width: 400px;
     float: right;
 }
 
@@ -119,7 +117,7 @@ ol, ul {
 
 .listContainer {
     margin: auto;
-    width: 50%;
+    max-width: 500px;
     text-align: left;
     border-spacing: 4px 20px
 }
@@ -212,13 +210,13 @@ ol, ul {
 }
 
 .homePage .signmeup h3 {
-    width: 50%;
+    max-width: 500px;
     text-align: left;
     margin: auto
 }
 
 .homePage .signmeup p {
-    width: 50%;
+    max-width: 500px;
     margin: 40px auto auto auto;
     text-align: left;
     line-height: 1.5;

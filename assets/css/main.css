@@ -24,9 +24,6 @@ ol, ul {
     padding: 0 50px;
 }
 
-.anchor {
-    padding-top: 60px;
-}
 
 .celebrate {
     max-width: 500px;
@@ -35,8 +32,9 @@ ol, ul {
 
 .why-now {
     margin: 0 auto;
-    font-size: 11pt;
+    font-size: 14pt;
     max-width: 450px;
+    text-align: left;
 }
 
 .footer {
@@ -53,17 +51,15 @@ ol, ul {
     white-space: pre-wrap;
 }
 
-.discussion {
-    height: 500px;
-}
-
 .why-now.h1 {
     text-align: left;
 }
 
-.signmeup .left>span {
+.signmeup .anchor {
     font-size: 30px;
     font-weight: 500;
+    margin-top: 0px;
+    padding-top: 40px;
 }
 
 .join-us {
@@ -78,12 +74,14 @@ ol, ul {
     width: 40%;
     height: 340px;
     display: inline;
-    line-height: 10;
+    float: left;
+    margin-top: 240px
 }
 
 .join-us .listContainer {
-    height: 340px;
-    min-width: 400px;
+    height: auto;
+    width: 50%;
+    float: right;
 }
 
 .checklist {
@@ -98,7 +96,8 @@ ol, ul {
 }
 
 .listContainer .checklist .checkmark {
-    background: url(../images/checkmark.png) 5% bottom no-repeat;
+    background: url(../images/checkmark.png);
+    background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
     height: 32px;
@@ -110,10 +109,11 @@ ol, ul {
 .listContainer .checklist .checktext {
     margin-left: 4px;
     vertical-align: middle;
+    font-size: 14pt
 }
 
 .join-us .left>span {
-    font-size: 30px;
+    font-size: 24pt;
     font-weight: 500;
 }
 
@@ -142,6 +142,7 @@ ol, ul {
 .homePage .heroImage .heroBg:before {
     background: url(../images/heroImage.png) 100% bottom no-repeat;
     background-size: contain;
+    background-position: center;
     content: "";
     display: block;
     height: 500px;
@@ -157,69 +158,56 @@ ol, ul {
 .homePage .heroImage .heroBg2:before {
     background: url(../images/townhall.png) 100% bottom no-repeat;
     background-size: contain;
+    background-position: center;
     content: "";
     display: block;
     height: 500px;
     width: 100%;
 }
-
 
 
 .homePage .heroImage .heroBg3 {
-    height: 500px;
-    width: 80%;
+    height: auto;
+    width: 100%;
     margin: 0 auto;
+    max-width: 800px;
 }
 
-.homePage .heroImage .heroBg3:before {
-    background: url(../images/heroImage3.png) 100% bottom no-repeat;
-    background-size: contain;
-    content: "";
-    display: block;
-    height: 400px;
-    width: 100%;
+.anchor {
+    margin-top: 40px;
 }
 
 .homePage .heroImage .heroBg4 {
-    height: 500px;
-    width: 80%;
+    height: auto;
+    width: 100%;
     margin: 0 auto;
+    max-width: 800px;
 }
 
-.homePage .heroImage .heroBg4:before {
-    background: url(../images/heroImage4.png) 100% bottom no-repeat;
-    background-size: contain;
-    content: "";
-    display: block;
-    height: 400px;
-    width: 100%;
+.homePage .signmeup h4 {
+    width: 40%;
+    margin: 40px auto auto auto;
+    text-align: left;
 }
 
 .homePage .signmeup {
-    height: 400px;
-    width: 80%;
+    height: 600px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
-    background: url(../images/heroImage5_bg.png) 100% bottom no-repeat;
-    background-size: contain;
+    background: url(../images/heroImage5_bg.png);
+    background-size: 100% 600px;
+    background-position: center;
+    background-repeat: no-repeat;
     content: "";
     display: block;
-    height: 400px;
-    width: 100%;
 }
 
 .homePage .heroImage .heroBg6 {
-    height: 400px;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.homePage .heroImage .heroBg6:before {
-    background: url(../images/heroImage6.png) 100% bottom no-repeat;
-    background-size: contain;
-    content: "";
-    display: block;
-    height: 400px;
+    height: auto;
     width: 100%;
+    margin: 40px auto;
+    max-width: 800px;
 }
 
 .heroImag.townhall {
@@ -258,6 +246,7 @@ ol, ul {
     background-image: url(../images/festihealth.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     /*background-size: cover;*/
 }
 
@@ -269,29 +258,25 @@ ol, ul {
 }
 
 .container > p {
-    font-size: 19px;
+    font-size: 14pt;
 }
 
 .homePage .heroImage .overlayContent p {
     margin-bottom: 24px;
 }
 
-
-
-
-
 .homePage .heroImage .overlayContent .btn {
     display: block;
     width: 244px;
     margin-bottom: 16px;
     padding: 0 8px;
-        width: 100px;
+    width: 100px;
     display: inline-block;
 }
 
 .btn.btnWhite {
     background: #fff;
-    color: #343a40;
+    color: #27D158;
 }
 
 
@@ -301,17 +286,18 @@ ol, ul {
     cursor: pointer;
     display: inline-block;
     font-family: gilroy,noto,sans-serif;
-    font-size: 14px;
+    font-size: 12pt;
     font-weight: 600;
     height: 44px;
     line-height: 44px;
     padding: 0 24px;
     text-align: center;
     vertical-align: top;
+    margin: 16px
 }
 
 .btn.btnBlue {
-    background: #0f0;
+    background: #27D158;
     color: #fff;
 }
 
@@ -370,6 +356,10 @@ a {
 
 .header a {
     color: #000;
+}
+
+body {
+    font-family: sans-serif;
 }
 
 /*a {

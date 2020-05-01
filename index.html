@@ -3,11 +3,30 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="icon" type="image/png" href="./assets/images/favicon.png">
     <meta property="og:title" content="Give Love Get Help." />
     <meta property="og:description" content="A Virtual Health Festival matching the best digital healthcare and wellness solutions to people who need them most for free!" />
     <meta property="og:image" content="https://givelovegethelp.org/assets/images/festihealth.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+          var x = document.getElementById("hamburgerMenuId");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+
+        function hideMenu() {
+          var x = document.getElementById("hamburgerMenuId");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          }
+        }
+    </script>
 </head>
 
 <body style="text-align: center">
@@ -32,8 +51,17 @@
                                     </ul>
                                 </nav>
                             </div>
+                            <div class="hamburger"><a id="menuLink" href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i><div></div></div>
                         </div>
                     </div>
+                </div>
+                <div class="hamburgerMenu" id="hamburgerMenuId">
+                    <ul>
+                        <li><a href="#activities" role="button" tabindex="0" prefetch="false" rel="nofollow" onclick="hideMenu()">Activities</a></li>
+                        <li><a href="#about" role="button" tabindex="0" prefetch="false" rel="nofollow" onclick="hideMenu()">About</a></li>
+                        <li><a href="#sponsors" role="button" tabindex="0" prefetch="false" rel="nofollow" onclick="hideMenu()">Sponsors</a></li>
+                        <li><a href="#contact" role="button" tabindex="0" prefetch="false" rel="nofollow" onclick="hideMenu()">Contact</a></li>
+                    </ul>
                 </div>
             </div>
             <div id="content">
@@ -92,9 +120,9 @@
                 </div>
                 <div class="signmeup anchor" id="sponsors">
                     <div>
-                        <h3>Sponsor</h3>
+                        <h1>Sponsor</h1>
                     </div>
-                    <div><p style="mainBody">Help us shape the new exciting era of Virtual Health by supporting the FestiHealth movement, and helping us help millions live healthier happier lives by connecting people everywhere to the best Virtual Care solutions.</p4></div>
+                    <div><p class="mainBody">Help us shape the new exciting era of Virtual Health by supporting the FestiHealth movement, and helping us help millions live healthier happier lives by connecting people everywhere to the best Virtual Care solutions.</p4></div>
                     <table class="listContainer">
                         <tbody>
                             <tr class="checklist">

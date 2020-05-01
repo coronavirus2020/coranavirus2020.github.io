@@ -43,7 +43,7 @@ ol, ul {
 
 #about {
     width: 100%;
-    background-image: url('../images/Why now-bg@svg.svg');
+    background-image: url('../images/Why\ now-bg@svg.svg');
     background-size: 130%;
     background-position-x: -200px;
     background-position-y: -100px;
@@ -170,13 +170,6 @@ ol, ul {
     background-position: 50%;
 }
 
-/*
-@media not all, not all, only screen and (-webkit-min-device-pixel-ratio: 1.5), not all
-.homePage .heroImage .heroBg:before {
-    background-image: url(/guest-assets/_/_/_/src/images/hero/home/homeHero-2x.png?0aa9da2…v0);
-    background-size: contain;
-}*/
-
 .homePage .heroImage .heroBg:before {
     background: url(../images/Hero-Image@2x.png) 100% bottom no-repeat;
     background-size: contain;
@@ -216,7 +209,7 @@ ol, ul {
     margin: 20pt auto 0 auto;
 }
 
-.homePage .signmeup h3 {
+.homePage .signmeup h1 {
     max-width: 500px;
     text-align: left;
     margin: auto
@@ -250,18 +243,6 @@ ol, ul {
     height: 500px;
 }
 
-/*a, audio, body, div, em, form, h1, h2, h3, h4, h5, h6, html, iframe, img, label, li, object, ol, p, span, table, tbody, td, tfoot, th, thead, tr, ul, video {
-    border: 0;
-    line-height: 1.4em;
-    margin: 0;
-    padding: 0;
-}
-*/
-
-/*.homePage .heroImage {
-    background: linear-gradient(73deg,#5d7786,#536c82 26%,#456982 52%,#1d354a 73%,#1a2a38);
-    height: 442px;
-}*/
 .heroImage {
     position: relative;
     margin: auto;
@@ -329,20 +310,6 @@ a {
     text-decoration: none;
     -webkit-text-decoration-skip: objects;
 }
-/*
-.container .cat span a {
-    width: 100px;
-    display: inline-block;
-}
-
-*/
-
-/*a, audio, body, div, em, form, h1, h2, h3, h4, h5, h6, html, iframe, img, label, li, object, ol, p, span, table, tbody, td, tfoot, th, thead, tr, ul, video {
-    border: 0;
-    line-height: 1.4em;
-    margin: 0;
-    padding: 0;
-}*/
 
 .header .headerBar .links {
     position: absolute;
@@ -387,78 +354,29 @@ body {
     font-size: 12pt;
 }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3), not all { 
- .join-us#contact {
-    display: block;
-  }
-
-  .join-us .left#leftContainer {
-    max-width: 100%;
-    height: 100%;
-    float: inherit;
-    line-height: inherit;
-  }
-
-  .anchor>.listContainer {
-    max-width: inherit;
-  }
-
-  .signmeup#sponsors {
-    width: 90%;
-  }
-
-  .why-now#about {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .homePage .signmeup p {
-    max-width: inherit;
-  }
-
-  #content .join-us#contact {
-    width: 100%;
-  }
-
-  .why-now p {
-    width: 100%;
-    max-width: inherit;
-  }
-
-  .join-us#contact {
-    max-width: inherit;
-    margin: inherit;
-  }
-
-  .join-us .right .listContainer#contact-us-table {
-    max-width: 90%;
-  }
-
-  #content table tbody tr.checklist td.checktext {
-    font-size: 12pt;
-  }
-  .mainBody {
-    font-size: 15pt;
-  }
-
-  .homePage .signmeup h3 {
-    margin-left: 0px;
-  }
-
-  .why-now h1 {
-    margin-left: 0px;
-  }
+.header .headerBar .hamburger {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 14px;
+    right: 0;
+    color: #2ca04e;
 }
 
-@media only screen 
-and (min-device-width : 300px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 2) { 
+.header .headerBar .hamburger div {
+    /*background: url(../images/checkmark.png) 0 0 no-repeat;*/
+    height: 36px;
+    width: 36px;
+}
+
+#menuLink {
+  color: #2ca04e;
+}
+
+@media only screen and (max-width : 500px) { 
  .join-us#contact {
     display: block;
+    padding-top: 64px;
   }
 
   .join-us .left#leftContainer {
@@ -490,6 +408,7 @@ and (-webkit-device-pixel-ratio : 2) {
   }
 
   .why-now p {
+    font-size: 12pt;
     width: 100%;
     max-width: inherit;
   }
@@ -499,137 +418,38 @@ and (-webkit-device-pixel-ratio : 2) {
     margin: inherit;
   }
 
-  .join-us .right .listContainer#contact-us-table {
-    max-width: 90%;
-  }
-
-  #content table tbody tr.checklist td.checktext {
-    font-size: 12pt;
-  }
-
-  .mainBody {
-    font-size: 15pt;
-  }
-
-  .homePage .signmeup h3 {
-    margin-left: 0px;
-  }
-
-  .why-now h1 {
-    margin-left: 0px;
-  }
+.header .hamburgerMenu {
+    background: #fff;
+    display: none;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 64px;
+    width: 100%;
+    z-index: 2;
 }
 
 
-@media screen and (max-width: 812px) {
-  .join-us#contact {
+.header .hamburgerMenu.open, .header .headerBar .hamburger {
     display: block;
-  }
-
-  .join-us .left#leftContainer {
-    max-width: 100%;
-    height: 100%;
-    float: inherit;
-    line-height: inherit;
-  }
-
-  .anchor>.listContainer {
-    max-width: inherit;
-  }
-
-  .signmeup#sponsors {
-    width: 90%;
-  }
-
-  .why-now#about {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .homePage .signmeup p {
-    max-width: inherit;
-  }
-
-  #content .join-us#contact {
-    width: 100%;
-  }
-
-  .why-now p {
-    width: 100%;
-    max-width: inherit;
-  }
-
-  .join-us#contact {
-    max-width: inherit;
-    margin: inherit;
-  }
-
-  .join-us .right .listContainer#contact-us-table {
-    max-width: 90%;
-  }
-
-  #content table tbody tr.checklist td.checktext {
-    font-size: 12pt;
-  }
-
-  .mainBody {
-    font-size: 15pt;
-  }
-
-  .homePage .signmeup h3 {
-    margin-left: 0px;
-  }
-
-  .why-now h1 {
-    margin-left: 0px;
-  }
+    font-size: 23pt;
 }
 
-@media only screen 
-and (min-device-width : 300px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 1) { 
- .join-us#contact {
-    display: block;
-  }
+.header .hamburgerMenu ul>li>a {
+  color: #2ca04e;
+}
 
-  .join-us .left#leftContainer {
-    max-width: 100%;
-    height: 100%;
-    float: inherit;
-    line-height: inherit;
-  }
+.header .hamburgerMenu ul>li {
+  margin: 10px auto;
+}
 
-  .anchor>.listContainer {
-    max-width: inherit;
-  }
+.header .hamburgerMenu ul {
+  padding: 0;
+}
 
-  .signmeup#sponsors {
-    width: 90%;
-  }
-
-  .why-now#about {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .homePage .signmeup p {
-    max-width: inherit;
-  }
-
-  #content .join-us#contact {
-    width: 100%;
-  }
-
-  .why-now p {
-    width: 100%;
-    max-width: inherit;
-  }
-
-  .join-us#contact {
-    max-width: inherit;
-    margin: inherit;
-  }
+.header .headerBar .links {
+    display: none;
+}
 
   .join-us .right .listContainer#contact-us-table {
     max-width: 90%;
@@ -640,14 +460,44 @@ and (-webkit-device-pixel-ratio : 1) {
   }
 
   .mainBody {
-    font-size: 15pt;
+    font-size: 13pt;
   }
 
-  .homePage .signmeup h3 {
+  .homePage .signmeup h1 {
     margin-left: 0px;
   }
 
   .why-now h1 {
     margin-left: 0px;
+  }
+
+  .homePage .heroImage .heroBg2 {
+    width: 100%;
+    height: 300px;
+  }
+
+  .homePage .heroImage .heroBg2:before {
+    height: 300px;
+  }
+
+  .homePage .heroImage .heroBg {
+    width: 100%;
+    height: 300px;
+  }
+
+  .homePage .heroImage .heroBg:before {
+    height: 300px;
+  }
+
+  /*.celebrate.anchor#activities {
+    padding-top: 10px;
+  }*/
+
+  .header .headerBar .logo a div {
+    height: 30px;
+  }
+
+  .container {
+    padding: 10px;
   }
 }

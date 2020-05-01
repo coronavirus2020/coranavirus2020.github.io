@@ -440,6 +440,9 @@ and (-webkit-device-pixel-ratio : 3), not all {
   #content table tbody tr.checklist td.checktext {
     font-size: 12px;
   }
+  .mainBody {
+    font-size: 15px;
+  }
 }
 
 @media only screen 
@@ -495,6 +498,10 @@ and (-webkit-device-pixel-ratio : 2) {
   #content table tbody tr.checklist td.checktext {
     font-size: 12px;
   }
+
+  .mainBody {
+    font-size: 15px;
+  }
 }
 
 
@@ -547,6 +554,10 @@ and (-webkit-device-pixel-ratio : 2) {
 
   #content table tbody tr.checklist td.checktext {
     font-size: 12px;
+  }
+
+  .mainBody {
+    font-size: 15px;
   }
 }
 
@@ -602,5 +613,9 @@ and (-webkit-device-pixel-ratio : 1) {
 
   #content table tbody tr.checklist td.checktext {
     font-size: 12px;
+  }
+
+  .mainBody {
+    font-size: 15px;
   }
 }

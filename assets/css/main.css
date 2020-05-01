@@ -31,7 +31,7 @@ ol, ul {
 
 .why-now {
     margin: 0 auto;
-    font-size: 13px;
+    font-size: 11pt;
     max-width: 450px;
 }
 
@@ -42,6 +42,11 @@ ol, ul {
 
 .why-now.h1 {
     text-align: left;
+}
+
+.signmeup .left>span {
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .join-us {
@@ -59,23 +64,35 @@ ol, ul {
     line-height: 10;
 }
 
-.join-us .right {
+.join-us .listContainer {
     height: 340px;
     min-width: 400px;
 }
 
 .checklist {
-    padding: 10px 0px;
-    height: 40px;
+    padding: 14px 0px;
 }
 
-.join-us .right .checklist span:before {
-    background: url(../images/checkmark.png) 10% bottom no-repeat;
+.listContainer {
+    margin: auto;
+    width: 40%;
+    text-align: left;
+    border-spacing: 4px 20px
+}
+
+.listContainer .checklist .checkmark {
+    background: url(../images/checkmark.png) 5% bottom no-repeat;
     background-size: contain;
-    content: "";
     display: inline-block;
-    height: 45px;
-    width: 45px;
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.listContainer .checklist .checktext {
+    margin-left: 4px;
+    vertical-align: middle;
 }
 
 .join-us .left>span {
@@ -91,6 +108,7 @@ ol, ul {
 .homePage .heroImage .heroBg {
     height: 600px;
     width: 80%;
+    margin: auto;
 }
 .heroImage .heroBg {
     background-size: cover;
@@ -116,6 +134,7 @@ ol, ul {
 .homePage .heroImage .heroBg2 {
     height: 500px;
     width: 80%;
+    margin: auto;
 }
 
 .homePage .heroImage .heroBg2:before {
@@ -159,14 +178,11 @@ ol, ul {
     width: 100%;
 }
 
-.homePage .heroImage .heroBg5 {
+.homePage .signmeup {
     height: 400px;
     width: 80%;
     margin: 0 auto;
-}
-
-.homePage .heroImage .heroBg5:before {
-    background: url(../images/heroImage5.png) 100% bottom no-repeat;
+    background: url(../images/heroImage5_bg.png) 100% bottom no-repeat;
     background-size: contain;
     content: "";
     display: block;

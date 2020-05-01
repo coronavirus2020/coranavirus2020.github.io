@@ -96,32 +96,6 @@ ol, ul {
     padding-top: 40px;
 }
 
-@media screen and (max-width: 500px) {
-  .join-us#contact {
-    display: block;
-  }
-
-  .join-us .left#leftContainer {
-    max-width: 100%;
-    height: 100%;
-    float: inherit;
-    line-height: inherit;
-  }
-
-  .anchor>.listContainer {
-    max-width: inherit;
-  }
-
-  .signmeup#sponsors {
-    width: 90%;
-  }
-
-  .why-now#about {
-    width: 90%;
-    margin: 0 auto;
-  }
-}
-
 .join-us {
     display: flex;
     width: 80%;
@@ -413,12 +387,109 @@ body {
     font-size: 12pt;
 }
 
-/*a {
-    cursor: pointer;
-    text-decoration: none;
-    -webkit-text-decoration-skip: objects;
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+ .join-us#contact {
+    display: block;
+  }
+
+  .join-us .left#leftContainer {
+    max-width: 100%;
+    height: 100%;
+    float: inherit;
+    line-height: inherit;
+  }
+
+  .anchor>.listContainer {
+    max-width: inherit;
+  }
+
+  .signmeup#sponsors {
+    width: 90%;
+  }
+
+  .why-now#about {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .homePage .signmeup p {
+    max-width: inherit;
+  }
+
+  #content .join-us#contact {
+    width: 100%;
+  }
+
+  .why-now p {
+    width: 100%;
+    max-width: inherit;
+  }
+
+  .join-us#contact {
+    max-width: inherit;
+    margin: inherit;
+  }
+
+  .join-us .right .listContainer#contact-us-table {
+    max-width: 90%;
+  }
+
+  #content table tbody tr.checklist td.checktext {
+    font-size: 12px;
+  }
 }
 
-* {
-    box-sizing: border-box;
-}*/
+@media screen and (max-width: 500px) {
+  .join-us#contact {
+    display: block;
+  }
+
+  .join-us .left#leftContainer {
+    max-width: 100%;
+    height: 100%;
+    float: inherit;
+    line-height: inherit;
+  }
+
+  .anchor>.listContainer {
+    max-width: inherit;
+  }
+
+  .signmeup#sponsors {
+    width: 90%;
+  }
+
+  .why-now#about {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .homePage .signmeup p {
+    max-width: inherit;
+  }
+
+  #content .join-us#contact {
+    width: 100%;
+  }
+
+  .why-now p {
+    width: 100%;
+    max-width: inherit;
+  }
+
+  .join-us#contact {
+    max-width: inherit;
+    margin: inherit;
+  }
+
+  .join-us .right .listContainer#contact-us-table {
+    max-width: 90%;
+  }
+
+  #content table tbody tr.checklist td.checktext {
+    font-size: 12px;
+  }
+}

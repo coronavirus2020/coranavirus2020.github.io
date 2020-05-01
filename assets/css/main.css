@@ -23,7 +23,7 @@ ol, ul {
 }
 
 .hero1 {
-    background-image: url('../assets/hero-background@svg.svg');
+    background-image: url('../images/hero-background@svg.svg');
     background-size: contain;
     background-position-x: 40px;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ ol, ul {
 
 .container {
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 800px;
     padding: 0 50px;
 }
 
@@ -43,7 +43,7 @@ ol, ul {
 
 #about {
     width: 100%;
-    background-image: url('../assets/Why now-bg@svg.svg');
+    background-image: url('../images/Why now-bg@svg.svg');
     background-size: 130%;
     background-position-x: -200px;
     background-position-y: -100px;
@@ -62,6 +62,7 @@ ol, ul {
 .why-now p {
     margin: 20px 10%;
     line-height: 1.5;
+    font-size: 9pt;
 }
 
 .footer {
@@ -82,6 +83,10 @@ ol, ul {
     text-align: left;
 }
 
+.anchor {
+    padding-top: 100px;
+}
+
 .signmeup .anchor {
     font-size: 30px;
     font-weight: 500;
@@ -91,6 +96,7 @@ ol, ul {
 
 .join-us {
     margin: 0px 40px;
+    display: flex;
     overflow: hidden;
 }
 
@@ -99,9 +105,12 @@ ol, ul {
     height: 340px;
     display: block;
     float: left;
-    margin-top: 240px
+    line-height: 340px
 }
 
+.right {
+    float: right;
+}
 .join-us .listContainer {
     height: auto;
     max-width: 400px;
@@ -131,6 +140,7 @@ ol, ul {
 }
 
 .listContainer .checklist .checktext {
+    font-size: 10pt;
     margin-left: 4px;
     vertical-align: middle;
     line-height: 1.5;
@@ -147,7 +157,7 @@ ol, ul {
 
 
 .homePage .heroImage .heroBg {
-    height: 600px;
+    height: 550px;
     width: 80%;
     margin: auto;
 }
@@ -164,7 +174,7 @@ ol, ul {
 }*/
 
 .homePage .heroImage .heroBg:before {
-    background: url(../assets/Hero-Image@2x.png) 100% bottom no-repeat;
+    background: url(../images/Hero-Image@2x.png) 100% bottom no-repeat;
     background-size: contain;
     background-position: center;
     content: "";
@@ -180,7 +190,7 @@ ol, ul {
 }
 
 .homePage .heroImage .heroBg2:before {
-    background: url(../assets/map@2x.png) 100% bottom no-repeat;
+    background: url(../images/map@2x.png) 100% bottom no-repeat;
     background-size: contain;
     background-position: center;
     content: "";
@@ -196,14 +206,10 @@ ol, ul {
     margin: 40px auto 0px auto;
 }
 
-.anchor {
-    padding-top: 40px;
-}
-
 .homePage .heroImage .heroBg4 {
     height: auto;
     width: 100%;
-    margin: 0 auto;
+    margin: 20pt auto 0 auto;
 }
 
 .homePage .signmeup h3 {
@@ -220,7 +226,7 @@ ol, ul {
 .homePage .signmeup {
     width: 100%;
     margin: 0 auto;
-    background: url(../assets/sponsors-graphic@svg.svg);
+    background: url(../images/sponsors-graphic@svg.svg);
     background-size: 140%;
     background-position-x: -120px;
     background-position-y: -120px;
@@ -252,7 +258,7 @@ ol, ul {
 }*/
 .heroImage {
     position: relative;
-    margin: auto;
+    margin: 0px auto;
 }
 
 .pageLayout #content {
@@ -281,15 +287,16 @@ ol, ul {
     display: inline-block;
 }
 
-.homePage .heroImage .overlayContent .btn {
-    display: block;
-}
-
 .btn.btnWhite {
     background: #fff;
     color: #000;
+    color: black;
 }
 
+.blackTitle {
+    color: black;
+    font-weight: 550;
+}
 
 .btn {
     border-radius: 22px;
@@ -298,13 +305,12 @@ ol, ul {
     display: inline-block;
     font-family: gilroy,noto,sans-serif;
     font-size: 12pt;
-    font-weight: 600;
-    height: 44px;
-    line-height: 44px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
     padding: 0 24px;
     text-align: center;
     vertical-align: top;
-    margin: 16px
 }
 
 .btn.btnBlue {
@@ -352,17 +358,18 @@ a {
     vertical-align: middle;
 }
 
-.header .headerBar .links nav>ul>li>a {
-    color: green;
-    display: block;
-    height: 64px;
-    line-height: 64px;
+.greenDot {
+    color: #27D158;
+}
+.subtitle {
+    font-size: 20pt;
+    font-weight: 450;
 }
 
 .header .headerBar .links nav>ul>li>a {
-    /*display: block;*/
-    height: 64px;
-    line-height: 64px;
+    color: #2ca04e;
+    display: block;
+    font-weight: 350;
 }
 
 .header a {
@@ -372,14 +379,270 @@ a {
 body {
     font-family: noto, sans-serif;
     font-size: 12pt;
+    margin: 0px;
 }
 
-/*a {
-    cursor: pointer;
-    text-decoration: none;
-    -webkit-text-decoration-skip: objects;
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3), not all {
+ .join-us#contact {
+    display: block;
+  }
+
+  .join-us .left#leftContainer {
+    max-width: 100%;
+    height: 100%;
+    float: inherit;
+    line-height: inherit;
+  }
+
+  .anchor>.listContainer {
+    max-width: inherit;
+  }
+
+  .signmeup#sponsors {
+    width: 90%;
+  }
+
+  .why-now#about {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .homePage .signmeup p {
+    max-width: inherit;
+  }
+
+  #content .join-us#contact {
+    width: 100%;
+  }
+
+  .why-now p {
+    width: 100%;
+    max-width: inherit;
+  }
+
+  .join-us#contact {
+    max-width: inherit;
+    margin: inherit;
+  }
+
+  .join-us .right .listContainer#contact-us-table {
+    max-width: 90%;
+  }
+
+  #content table tbody tr.checklist td.checktext {
+    font-size: 12pt;
+  }
+  .mainBody {
+    font-size: 15pt;
+  }
+
+  .homePage .signmeup h3 {
+    margin-left: 0px;
+  }
+
+  .why-now h1 {
+    margin-left: 0px;
+  }
 }
 
-* {
-    box-sizing: border-box;
-}*/
+@media only screen
+and (min-device-width : 300px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 2) {
+ .join-us#contact {
+    display: block;
+  }
+
+  .join-us .left#leftContainer {
+    max-width: 100%;
+    height: 100%;
+    float: inherit;
+    line-height: inherit;
+  }
+
+  .anchor>.listContainer {
+    max-width: inherit;
+  }
+
+  .signmeup#sponsors {
+    width: 90%;
+  }
+
+  .why-now#about {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .homePage .signmeup p {
+    max-width: inherit;
+  }
+
+  #content .join-us#contact {
+    width: 100%;
+  }
+
+  .why-now p {
+    width: 100%;
+    max-width: inherit;
+  }
+
+  .join-us#contact {
+    max-width: inherit;
+    margin: inherit;
+  }
+
+  .join-us .right .listContainer#contact-us-table {
+    max-width: 90%;
+  }
+
+  #content table tbody tr.checklist td.checktext {
+    font-size: 12pt;
+  }
+
+  .mainBody {
+    font-size: 15pt;
+  }
+
+  .homePage .signmeup h3 {
+    margin-left: 0px;
+  }
+
+  .why-now h1 {
+    margin-left: 0px;
+  }
+}
+
+
+@media screen and (max-width: 812px) {
+  .join-us#contact {
+    display: block;
+  }
+
+  .join-us .left#leftContainer {
+    max-width: 100%;
+    height: 100%;
+    float: inherit;
+    line-height: inherit;
+  }
+
+  .anchor>.listContainer {
+    max-width: inherit;
+  }
+
+  .signmeup#sponsors {
+    width: 90%;
+  }
+
+  .why-now#about {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .homePage .signmeup p {
+    max-width: inherit;
+  }
+
+  #content .join-us#contact {
+    width: 100%;
+  }
+
+  .why-now p {
+    width: 100%;
+    max-width: inherit;
+  }
+
+  .join-us#contact {
+    max-width: inherit;
+    margin: inherit;
+  }
+
+  .join-us .right .listContainer#contact-us-table {
+    max-width: 90%;
+  }
+
+  #content table tbody tr.checklist td.checktext {
+    font-size: 12pt;
+  }
+
+  .mainBody {
+    font-size: 15pt;
+  }
+
+  .homePage .signmeup h3 {
+    margin-left: 0px;
+  }
+
+  .why-now h1 {
+    margin-left: 0px;
+  }
+}
+
+@media only screen
+and (min-device-width : 300px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 1) {
+ .join-us#contact {
+    display: block;
+  }
+
+  .join-us .left#leftContainer {
+    max-width: 100%;
+    height: 100%;
+    float: inherit;
+    line-height: inherit;
+  }
+
+  .anchor>.listContainer {
+    max-width: inherit;
+  }
+
+  .signmeup#sponsors {
+    width: 90%;
+  }
+
+  .why-now#about {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .homePage .signmeup p {
+    max-width: inherit;
+  }
+
+  #content .join-us#contact {
+    width: 100%;
+  }
+
+  .why-now p {
+    width: 100%;
+    max-width: inherit;
+  }
+
+  .join-us#contact {
+    max-width: inherit;
+    margin: inherit;
+  }
+
+  .join-us .right .listContainer#contact-us-table {
+    max-width: 90%;
+  }
+
+  #content table tbody tr.checklist td.checktext {
+    font-size: 12pt;
+  }
+
+  .mainBody {
+    font-size: 15pt;
+  }
+
+  .homePage .signmeup h3 {
+    margin-left: 0px;
+  }
+
+  .why-now h1 {
+    margin-left: 0px;
+  }
+}

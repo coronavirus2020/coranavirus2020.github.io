@@ -24,9 +24,6 @@ ol, ul {
     padding: 0 50px;
 }
 
-.anchor {
-    padding-top: 60px;
-}
 
 .celebrate {
     max-width: 500px;
@@ -54,17 +51,15 @@ ol, ul {
     white-space: pre-wrap;
 }
 
-.discussion {
-    height: 500px;
-}
-
 .why-now.h1 {
     text-align: left;
 }
 
-.signmeup .left>span {
+.signmeup .anchor {
     font-size: 30px;
     font-weight: 500;
+    margin-top: 0px;
+    padding-top: 40px;
 }
 
 .join-us {
@@ -79,12 +74,14 @@ ol, ul {
     width: 40%;
     height: 340px;
     display: inline;
-    line-height: 10;
+    float: left;
+    margin-top: 240px
 }
 
 .join-us .listContainer {
-    height: 340px;
-    min-width: 400px;
+    height: auto;
+    width: 50%;
+    float: right;
 }
 
 .checklist {
@@ -99,7 +96,8 @@ ol, ul {
 }
 
 .listContainer .checklist .checkmark {
-    background: url(../images/checkmark.png) 5% bottom no-repeat;
+    background: url(../images/checkmark.png);
+    background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
     height: 32px;
@@ -168,44 +166,28 @@ ol, ul {
 }
 
 
-
 .homePage .heroImage .heroBg3 {
-    height: 500px;
+    height: auto;
     width: 100%;
     margin: 0 auto;
     max-width: 800px;
 }
 
-.homePage .heroImage .heroBg3:before {
-    background: url(../images/heroImage3.png) 100% bottom no-repeat;
-    background-size: contain;
-    background-position: center;
-    content: "";
-    display: block;
-    height: 400px;
-    width: 100%;
+.anchor {
+    margin-top: 40px;
 }
 
 .homePage .heroImage .heroBg4 {
-    height: 500px;
+    height: auto;
     width: 100%;
     margin: 0 auto;
     max-width: 800px;
-}
-
-.homePage .heroImage .heroBg4:before {
-    background: url(../images/heroImage4.png) 100% bottom no-repeat;
-    background-size: contain;
-    background-position: center;
-    content: "";
-    display: block;
-    height: 400px;
-    width: 100%;
 }
 
 .homePage .signmeup h4 {
     width: 40%;
     margin: 40px auto auto auto;
+    text-align: left;
 }
 
 .homePage .signmeup {
@@ -222,20 +204,10 @@ ol, ul {
 }
 
 .homePage .heroImage .heroBg6 {
-    height: 400px;
+    height: auto;
     width: 100%;
-    margin: 0 auto;
+    margin: 40px auto;
     max-width: 800px;
-}
-
-.homePage .heroImage .heroBg6:before {
-    background: url(../images/heroImage6.png) 100% bottom no-repeat;
-    background-size: contain;
-    background-position: center;
-    content: "";
-    display: block;
-    height: 400px;
-    width: 100%;
 }
 
 .heroImag.townhall {
@@ -321,6 +293,7 @@ ol, ul {
     padding: 0 24px;
     text-align: center;
     vertical-align: top;
+    margin: 16px
 }
 
 .btn.btnBlue {
@@ -383,6 +356,10 @@ a {
 
 .header a {
     color: #000;
+}
+
+body {
+    font-family: sans-serif;
 }
 
 /*a {

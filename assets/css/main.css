@@ -38,7 +38,7 @@ ol, ul {
 
 .celebrate {
     max-width: 500px;
-    margin: 0 10px;
+    margin: 0 auto;
 }
 
 #about {
@@ -337,6 +337,7 @@ a {
 .subtitle {
     font-size: 20pt;
     font-weight: 450;
+    padding: 0 10px;
 }
 
 .header .headerBar .links nav>ul>li>a {

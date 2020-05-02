@@ -109,7 +109,7 @@ ol, ul {
     height: 340px;
     display: block;
     float: left;
-    line-height: 340px
+    margin-top: 340px;
 }
 
 .right {
@@ -387,7 +387,7 @@ body {
 @media only screen and (max-width : 500px) {
  .join-us#contact {
     display: block;
-    padding-top: 64px;
+    padding-top: 40px;
   }
 
   .join-us .left#leftContainer {
@@ -395,6 +395,7 @@ body {
     height: 100%;
     float: inherit;
     line-height: inherit;
+    margin-top: 0px;
   }
 
   .anchor>.listContainer {

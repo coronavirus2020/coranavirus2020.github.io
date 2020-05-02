@@ -67,7 +67,7 @@ ol, ul {
     font-size: 12pt;
 }
 
-.footer {
+.content-footer {
     height: 50px;
 }
 
@@ -377,6 +377,11 @@ body {
 
 .header .hamburgerMenu {
   display: none;
+}
+
+.footer {
+  margin: 10px auto;
+  font-size: 12px;
 }
 
 @media only screen and (max-width : 500px) {

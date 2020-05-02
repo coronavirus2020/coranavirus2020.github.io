@@ -32,9 +32,9 @@
           var x = document.getElementById("more");
           if (x.style.display === "block") {
             x.style.display = "none";
-            self.text = "More ..."
+            document.getElementById("show-more").style.display = "inline"
           } else {
-            self.text = "Show Less ..."
+            self.style.display = "none"
             x.style.display = "block";
           }
         }
@@ -119,7 +119,7 @@
                           We will share inspiring stories not only about innovation and efficacy of new effective and easy to use technology, but also about resilience and about investing in one’s mind, body, spirit, and soul. We will also facilitate connections between new affordable solutions, free solutions, and users in need to foster a new era where unemployment and physical distance can be alleviated by more efficient and effective virtual health solutions available to all.
                       </p>
                       <p >
-                          And we’re all in this together! That’s why we’re excited to bring together innovators, experts, doctors, nurses, artists, medical professionals, caregivers, patients, parents, students, friends, athletes, policymakers, scientists, philanthropists, hipsters, leaders, and more to Learn, Experience and Connect in FestiHealth 2020.
+                          And we’re all in this together! That’s why we’re excited to bring together innovators, experts, doctors, nurses, artists, medical professionals, caregivers, patients, parents, students, friends, athletes, policymakers, scientists, philanthropists, hipsters, leaders, and more to Learn, Experience and Connect in FestiHealth 2020. <a href="javascript:void(0);" id="show-less" role="button" onclick="toggleMore(this)" class="show-more">Show less...</a>
                       </p>
                     </div>
                 </div>

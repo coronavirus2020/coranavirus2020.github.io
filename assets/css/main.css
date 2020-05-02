@@ -373,6 +373,10 @@ body {
   color: #2ca04e;
 }
 
+.header .hamburgerMenu {
+  display: none;
+}
+
 @media only screen and (max-width : 500px) { 
  .join-us#contact {
     display: block;
@@ -486,10 +490,6 @@ body {
     height: 300px;
   }
 
-  .homePage .heroImage .heroBg:before {
-    height: 300px;
-  }
-
   /*.celebrate.anchor#activities {
     padding-top: 10px;
   }*/
@@ -503,5 +503,6 @@ body {
   }
 
   .homePage .heroImage .heroBg:before {
-    background: url(../images/Hero-Image.png) 100% bottom no-repeat;
+    background: url(../images/Hero-Image.png) contain center bottom no-repeat;
+    height: 300px;
 }

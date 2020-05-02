@@ -114,6 +114,7 @@ ol, ul {
 
 .right {
     float: right;
+    display: flex;
 }
 .join-us .listContainer {
     height: auto;

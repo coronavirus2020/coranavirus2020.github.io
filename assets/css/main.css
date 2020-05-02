@@ -320,7 +320,8 @@ a {
 
 .header .headerBar .logo a div {
     background: url(../images/logo.png) 0 0 no-repeat;
-    background-size: cover;
+    background-size: 70%;
+    background-position: center;
     height: 48px;
     width: 152px;
 }

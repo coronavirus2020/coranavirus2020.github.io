@@ -38,7 +38,7 @@ ol, ul {
 
 .celebrate {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 10px;
 }
 
 #about {
@@ -68,7 +68,7 @@ ol, ul {
 }
 
 .content-footer {
-    height: 50px;
+    height: 40px;
 }
 
 .headline {
@@ -86,7 +86,7 @@ ol, ul {
 }
 
 .anchor {
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 .signmeup .anchor {
@@ -109,7 +109,7 @@ ol, ul {
     height: 340px;
     display: block;
     float: left;
-    margin-top: 340px;
+    margin-top: 230px;
 }
 
 .right {
@@ -252,6 +252,10 @@ ol, ul {
     min-height: calc(100vh - 421px);
 }
 
+.cta {
+  margin: 10px auto;
+}
+
 @media not all, not all, only screen and (-webkit-min-device-pixel-ratio: 1.5), not all
 .homePage .valueProps .peaceOfMind .image {
     background-image: url(../images/festihealth.png);
@@ -365,6 +369,14 @@ body {
     color: #2ca04e;
 }
 
+.show-more {
+  color: #2ca04e;
+}
+
+#more {
+  display: none;
+}
+
 .header .headerBar .hamburger div {
     /*background: url(../images/checkmark.png) 0 0 no-repeat;*/
     height: 36px;
@@ -380,14 +392,14 @@ body {
 }
 
 .footer {
-  margin: 10px auto;
+  margin: 15px auto;
   font-size: 12px;
 }
 
 @media only screen and (max-width : 500px) {
  .join-us#contact {
     display: block;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
   }
 
   .join-us .left#leftContainer {
@@ -466,6 +478,7 @@ body {
 
   .join-us .right .listContainer#contact-us-table {
     max-width: 90%;
+    margin: 10px auto;
   }
 
   #content table tbody tr.checklist td.checktext {
@@ -486,6 +499,7 @@ body {
 
   .homePage .heroImage .heroBg2 {
     height: 300px;
+    margin: 10px 10px;
   }
 
   .homePage .heroImage .heroBg2:before {
@@ -512,4 +526,9 @@ body {
   .homePage .heroImage .heroBg:before {
     background: url(../images/Hero-Image.png) contain center bottom no-repeat;
     height: 300px;
+  }
+
+  .mobile-line-break {
+    line-height: 30pt;
+  }
 }

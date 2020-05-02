@@ -22,6 +22,10 @@ ol, ul {
     margin: 40px auto
 }
 
+.overlayContent p b {
+    font-size: 14pt;
+}
+
 .hero1 {
     background-image: url('../images/hero-background@svg.svg');
     background-size: contain;
@@ -38,11 +42,11 @@ ol, ul {
 
 .celebrate {
     max-width: 500px;
-    margin: 0 10px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 #about {
-    width: 100%;
     background-image: url('../images/Why\ now-bg@svg.svg');
     background-size: 130%;
     background-position-x: -200px;
@@ -58,6 +62,7 @@ ol, ul {
 .why-now h1 {
     margin: 0 auto;
     max-width: 500px;
+    font-size: 20pt;
 }
 
 .why-now p {
@@ -86,7 +91,7 @@ ol, ul {
 }
 
 .anchor {
-    padding-top: 75px;
+    padding-top: 64px;
 }
 
 .signmeup .anchor {
@@ -98,7 +103,7 @@ ol, ul {
 
 .join-us {
     display: flex;
-    width: 80%;
+    width: 90%;
     max-width: 700px;
     margin: 0 auto;
     overflow: hidden;
@@ -151,9 +156,8 @@ ol, ul {
     line-height: 1.5;
 }
 
-.join-us .left>span {
-    font-size: 24pt;
-    font-weight: 500;
+.join-us .left h1 {
+    font-size: 20pt;
 }
 
 .header .headerBar .container>div {
@@ -199,7 +203,7 @@ ol, ul {
 .homePage .heroImage .heroBg3 {
     height: auto;
     width: 100%;
-    margin: 40px auto 40px auto;
+    margin: 40px auto 0px auto;
 }
 
 .homePage .heroImage .heroBg4 {
@@ -222,7 +226,6 @@ ol, ul {
 }
 
 .homePage .signmeup {
-    width: 100%;
     margin: 0 auto;
     background: url(../images/sponsors-graphic@svg.svg);
     background-size: 140%;
@@ -235,7 +238,7 @@ ol, ul {
 .homePage .heroImage .heroBg6 {
     height: auto;
     width: 100%;
-    margin: 40px auto;
+    margin: 40px auto 0px auto;
 }
 
 .heroImag.townhall {
@@ -340,7 +343,6 @@ a {
 }
 .subtitle {
     font-size: 20pt;
-    font-weight: 450;
     padding: 0 10px;
 }
 
@@ -358,6 +360,10 @@ body {
     font-family: noto, sans-serif;
     font-size: 12pt;
     margin: 0px;
+}
+
+h1 {
+    font-weight: 600;
 }
 
 .header .headerBar .hamburger {
@@ -415,12 +421,14 @@ body {
   }
 
   .signmeup#sponsors {
-    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .why-now#about {
-    width: 90%;
     margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .homePage .signmeup p {
@@ -440,6 +448,12 @@ body {
   .join-us#contact {
     max-width: inherit;
     margin: inherit;
+  }
+
+  .celebrate {
+    max-width: 260px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
 
 .header .hamburgerMenu {
@@ -475,6 +489,14 @@ body {
 .header .headerBar .links {
     display: none;
 }
+  #about {
+    background-image: url('../images/Why\ now-bg@svg.svg');
+    background-size: 120%;
+    background-position-x: -50px;
+    background-position-y: -20px;
+    background-repeat: no-repeat;
+    max-width: none;
+  }
 
   .join-us .right .listContainer#contact-us-table {
     max-width: 90%;
@@ -531,4 +553,24 @@ body {
   .mobile-line-break {
     line-height: 30pt;
   }
+
+  .homePage .signmeup {
+    margin: 0 auto;
+    background: url(../images/sponsors-graphic@svg.svg);
+    background-size: 135%;
+    background-position-x: -40px;
+    background-position-y: -40px;
+    background-repeat: no-repeat;
+    display: block;
+  }
+}
+
+/* noto-sans-regular - latin */
+@font-face {
+  font-family: 'noto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'),
+       url('../fonts/noto-sans-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/noto-sans-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

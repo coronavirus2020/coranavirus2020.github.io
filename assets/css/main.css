@@ -126,8 +126,7 @@ ol, ul {
 }
 
 .listContainer {
-    margin: auto;
-    max-width: 340px;
+    margin: auto 10%;
     text-align: left;
     border-spacing: 4px 20px
 }

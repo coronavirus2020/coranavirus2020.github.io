@@ -190,7 +190,7 @@ ol, ul {
 }
 
 .homePage .heroImage .heroBg2:before {
-    background: url(../images/map@2x.png) no-repeat;
+    background: url(../images/Map.png) no-repeat;
     background-size: contain;
     background-position: center;
     content: "";

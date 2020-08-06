@@ -1,0 +1,38 @@
+.section {
+	padding: 0 10%;
+}
+
+.horizontalBlock {
+	display: flex;
+	align-items: center;
+}
+
+.verticalBlock {
+	width: 50%;
+	text-align: left;
+}
+
+.leftColumn {
+	max-width: 500px;
+	margin-right: 10px;
+}
+
+.rightColumn {
+	max-width: 500px;
+	margin-left: 10px;
+}
+
+#introImage {
+	width: 50%;
+	height: auto;
+}
+
+#learnImage {
+	width: 50%;
+	height: auto;
+}
+
+#learnExperienceConnectImage {
+	width: 100%;
+	height: auto;
+}

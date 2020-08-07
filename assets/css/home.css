@@ -2,6 +2,11 @@
 	padding: 0 10%;
 }
 
+.section > p {
+	margin: 20px auto;
+	max-width: 400px;
+}
+
 .horizontalBlock {
 	display: flex;
 	align-items: center;
@@ -35,4 +40,19 @@
 #learnExperienceConnectImage {
 	width: 100%;
 	height: auto;
+}
+
+img.star {
+	width: 25%;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.content-footer {
+	height: 300px;
+}
+
+body {
+	background: url('../images/bg-space.png') 100% 100% no-repeat;
 }
